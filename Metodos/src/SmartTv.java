@@ -92,6 +92,9 @@ public class SmartTv {
      * @param novoCanal the new channel number to set
      */
     public void mudarDeCanal(int novoCanal) {
+        /*
+         * Comentario multi linhas
+         */
         canal = novoCanal;
         System.out.println("Canal: " + canal);
     }
