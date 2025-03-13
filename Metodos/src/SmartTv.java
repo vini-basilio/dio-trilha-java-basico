@@ -26,6 +26,11 @@
  * Represents a Smart TV with basic control functionalities.
  * This class manages the TV's power state, volume, and channel settings.
  */
+/**
+ * @author Vini
+ * @version 1.0
+ * @since 13/03/25
+ */
 public class SmartTv {
 
     boolean ligada = false;
