@@ -6,6 +6,11 @@ public class Operadores {
         num = -num;
         // reverte a operação
         num = num * -1;
-        System.out.println(num);
+        // se o incrimento for assim
+        // o valor sera impresso primeiro, e valor alterado depois
+        System.out.println(num++);
+        // agora o valor muda primeiro
+        System.out.println(++num);
+        // mesma logica para subtracao
     }
 }
